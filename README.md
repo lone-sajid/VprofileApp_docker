@@ -24,12 +24,12 @@ $ sudo -i
 Step 4:
 Now move to /vagrant/ directory inside VM which will have "compose" directory in it. Also cd into this compose directory which will have "docker-compose.yml" file;
 
-# cd /vagrant/compose
+cd /vagrant/compose
 
 Step 5:
 Run the below command will be depoy the necessary containers on this VM.
 
-# docker compose up -d
+docker compose up -d
 
 Step 6:
 Once everything is up and completed you can use "ip addr show" command to get the IP address of your VM (you can get the IP address information from Vagrantfile directly as well). 
