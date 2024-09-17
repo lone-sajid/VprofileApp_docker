@@ -6,6 +6,7 @@ Step 1:
 Clone the repository on your local machine and change to the respective drirectory.
 
 $  git clone https://github.com/lone-sajid/VprofileApp_docker.git
+
 $  cd VprofileApp_docker/MacOSM1Chip/
 
 Step 2: 
@@ -17,6 +18,7 @@ Step 3:
 Once the VM is up and ready login to the VM using below ssh command from the directory .../VprofileApp_docker/MacOSM1Chip/ and switch to root user;
 
 $ vagrant up
+
 $ sudo -i
 
 Step 4:
